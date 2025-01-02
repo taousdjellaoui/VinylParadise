@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Vinyle Paradis</string>
+    <string name="hint_titre">Titre</string>
+    <string name="hint_artist">Artiste</string>
+    <string name="hint_prix">Prix</string>
+    <string name="hint_description">Description</string>
+    <string name="btn_save">Enregistrer</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_nom">Nom</string>
+    <string name="urlImage">Url de l\'image</string>
+    <string name="btn_contacterVendeur">Contacter le vendeur</string>
+    <string name="hint_contacterVendeur">Contacter le vendeur pour demander plus d\'information</string>
+    <string name="hint_redigerEmail">Rédiger votre mail ICI</string>
+    <string name="btn_envoyerEmail">Envoyer l\'email au vendeur</string>
+    <string name="btn_afficherTout">Afficher tout</string>
+
+    <string name="sujet_email">ACHAT DU VINYL \'%1$s\'</string>
+    <string name="corps_email">Je veux acheter le vinyl: %1$s de %2$s au prix de %3$s.\n--INFO SUPPLÉMENTAIRE DE L\'ACHETEUR--</string>
+    <string name="titre_dialogue">Confirmer l\'action</string>
+    <string name="message_dialogue">Vous allez être redirigé vers l\'application Gmail pour envoyer un courriel au vendeur. Êtes-vous sûr de vouloir envoyer ce courriel au vendeur ?</string>
+    <string name="bouton_ok">OK</string>
+    <string name="bouton_annuler">Annuler</string>
+    <string name="aucune_appli_email">Aucune application de messagerie trouvée</string>
+    <string name="choisir_email">Envoyer courriel...</string>
+
+    <string name="title_dialogue_confirmation">Confirmation</string>
+    <string name="message_dialogue_confirmation">Voulez-vous vraiment ajouter ce vinyl ?</string>
+    <string name="button_dialogue_positive">Oui</string>
+    <string name="button_dialogue_negative">Non</string>
+    <string name="toast_vinyl_ajout">Vinyl ajouté avec succès</string>
+    <string name="erreur_invalid_url">URL de l\'image invalide</string>
+
+    <string name="erreur_titre_requis">Titre requis</string>
+    <string name="erreur_artiste_requis">Artiste requis</string>
+    <string name="erreur_prix_requis">Prix valide requis</string>
+    <string name="erreur_url_image_requise">URL de l\'image requise</string>
+    <string name="erreur_nom_utilisateur_requis">Nom d\'utilisateur requis</string>
+    <string name="erreur_email_requis">Email valide requis</string>
+</resources>

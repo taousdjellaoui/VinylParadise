@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Vinyl Paradise</string>
+    <string name="hint_titre">Title</string>
+    <string name="hint_artist">Artist</string>
+    <string name="hint_prix">Price</string>
+    <string name="hint_description">Description</string>
+    <string name="btn_save">Save</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_nom">Name</string>
+    <string name="urlImage">Image URL</string>
+    <string name="btn_contacterVendeur">Contact the seller</string>
+    <string name="hint_contacterVendeur">Contact the seller to request more information</string>
+    <string name="hint_redigerEmail">Write your email HERE</string>
+    <string name="btn_envoyerEmail">Send email to seller</string>
+    <string name="btn_afficherTout">Show all</string>
+
+    <string name="sujet_email">VINYL PURCHASE \'%1$s\'</string>
+    <string name="corps_email">I want to purchase the vinyl: %1$s by %2$s at the price of %3$s.\n--ADDITIONAL BUYER INFORMATION--</string>
+    <string name="titre_dialogue">Confirm action</string>
+    <string name="message_dialogue">You will be redirected to the Gmail app to send an email to the seller. Are you sure you want to send this email to the seller?</string>
+    <string name="bouton_ok">OK</string>
+    <string name="bouton_annuler">Cancel</string>
+    <string name="aucune_appli_email">No email app found</string>
+    <string name="choisir_email">Send email...</string>
+
+    <string name="title_dialogue_confirmation">Confirmation</string>
+    <string name="message_dialogue_confirmation">Do you really want to add this vinyl?</string>
+    <string name="button_dialogue_positive">Yes</string>
+    <string name="button_dialogue_negative">No</string>
+    <string name="toast_vinyl_ajout">Vinyl added successfully</string>
+    <string name="erreur_invalid_url">Invalid image UR</string>
+
+    <string name="erreur_titre_requis">Title is required</string>
+    <string name="erreur_artiste_requis">Artist is required</string>
+    <string name="erreur_prix_requis">A valid price is required</string>
+    <string name="erreur_url_image_requise">Image URL is required</string>
+    <string name="erreur_nom_utilisateur_requis">User name is required</string>
+    <string name="erreur_email_requis">A valid email is required</string>
+</resources>

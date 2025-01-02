@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A3D2E9FB"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="105dp"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:alpha="0.5"
+            android:background="#00FFFFFF"
+            android:contentDescription="@null"
+            android:paddingBottom="5dp"
+            app:srcCompat="@drawable/home" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false"
+            android:queryHint="Search for vinyls..." />
+
+        <Button
+            android:id="@+id/btn_historique_recherche"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="H" />
+
+        <ImageView
+            android:id="@+id/imgAjoutVinyl"
+            android:layout_width="85dp"
+            android:layout_height="71dp"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            app:srcCompat="@drawable/ajout_logo" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="531dp"
+        android:layout_weight="1"
+        android:background="#A9D3EAFC"
+        android:orientation="horizontal">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerView2"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            app:defaultNavHost="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:navGraph="@navigation/nav_graph" />
+    </LinearLayout>
+
+
+</LinearLayout>
